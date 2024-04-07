@@ -12,3 +12,5 @@ EclipseScheduler.scheduleTask(new Task(
 ));
 ```
 Eclipse uses an ID system to uniquely identify tasks. This means, if you try to schedule a task with the same ID as one that's already saved, it'll "tap into" the existing task and make sure the interval is maintained.
+## Install
+Find your repo and dependency code for your build system [here](https://jitpack.io/#seailz/eclipse/-SNAPSHOT).
